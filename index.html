@@ -2,29 +2,21 @@
 <html>
 <head>
 	<title>Adventure Game</title>
-	<link href="css/style.css" rel="stylesheet">
-
+	<link rel="stylesheet" type="text/css" href="opmaak adventure game.css">
+	<script src="game.js" type="text/javascript"></script>
 </head>
 <body>
+	<main>
+		<h1 id="titel">ADVENTURE GAME!</h1>
+		<div id="begintekst">
+			<P>Welkom bij de adventure game.<br>
+			Ben jij er klaar voor?<br>
+			Veel plezier ;)</P>
+		</div>
+	<button id="startknop" type="button" onclick="Begin();">start</button>
+	<button id="weg" type="button" onclick="Verstoppen();"></button>
 
-<main>
+	</main>
 
-	<section id="status"></section>
-
-	<section id="level_title">Start</section>
-
-	<nav>
-
-		<button id="option1" onclick="javascript:Level1()">Optie 1</button>
-		<button id="option2">Optie 2</button>
-		<button id="option3">Optie 3</button>
-
-	</nav>
-
-	<img id="level_image" class="level_image" src="img/rpg.png">
-
-</main>
-
-	<script src="js/game.js" type="text/javascript" ></script>
 </body>
 </html>

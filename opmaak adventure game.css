@@ -1,0 +1,31 @@
+body {
+	background-image: url("start foto.jpg");
+	background-repeat: no-repeat;
+	background-size: 1820px 980px;
+}
+#begintekst {
+	color: darkgreen;
+	position: absolute;
+	height: 100px;
+	margin-top: 200px;
+	margin-left: 300px;
+	font-size: 30px;
+}
+h1 {
+	font-style: oblique;
+	color: darkgreen;
+	font-size: 100px;
+	text-shadow: 5px 5px lightgreen;
+	text-align: center;
+
+}
+#startknop {
+	width: 150px;
+	height: 150px;
+	margin-left:300px;
+	font-size: 30px;
+	background-color: darkgreen;
+	border:none;
+	color: lightgreen;
+	border-radius: 60%;
+}
