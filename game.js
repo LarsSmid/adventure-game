@@ -8,7 +8,6 @@ function Begin() {
 	document.getElementById('begintekst').style.top = "-100px";
 	document.getElementById('begintekst').style.position = "absolute";
 	document.getElementById('begintekst').style.left = "-100px";
-	document.getElementById('weg').style.display = "inline";
 }
 function Verstoppen() {
 	console.log('ik verstop hem in de wieg')
