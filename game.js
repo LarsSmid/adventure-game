@@ -17,8 +17,33 @@ function Verstoppen() {
 	clearInterval(lbgt_interval);
 	document.getElementById('weg').style.display = "none";
 	document.getElementById('begintekst').innerHTML = "";
-	document.body.style.backgroundImage = "url('foto 2.jpg')";
+	document.body.style.backgroundImage = "url('foto 6.gif')";
 	document.getElementById('vechten').style.display = "none";
+	showtekst('Tarzan lag in de wieg en begon te huilen. Een van de apen namelijk "Nana" die hoorde iets of iemand huilen en ging kijken. Nana deed voorzichtig want ze zag dat de tijger hier was geweest. Maar uiteindelijk vond ze tarzan en dacht: zal ik hem meenemen of laten liggen?');
+	document.getElementById('liggen').style.display = "inline";
+	document.getElementById('meenemen').style.display = "inline";
+}
+function Liggen() {
+	clearInterval(lbgt_interval);
+	document.getElementById('liggen').style.display = "none";
+	document.getElementById('begintekst').innerHTML = "";
+	document.body.style.backgroundImage = "url('foto 6.jpg')"
+	document.getElementById('meenemen').style.display = "none";
+	document.getElementById('terug').style.display = "inline";
+	showtekst('helaas je hebt tarzan laten liggen en is omgekomen van de honger. Probeer het opnieuw!')
+	document.getElementById('begintekst').style.left = "50px";
+	document.getElementById('begintekst').style.fontSize = "100px";
+	document.getElementById('begintekst').style.color = "black";
+}
+function Meenemen() {
+	clearInterval(lbgt_interval);
+	document.getElementById('meenemen').style.display = "none";
+	document.getElementById('begintekst').innerHTML = "";
+	document.body.style.backgroundImage = "url('foto 7.gif')"
+	document.getElementById('liggen').style.display = "none";
+	showtekst('Nana komt teug bij de apen family met tarzan. Alle apen zijn helemaal gek op tarzan. Behalve dodo hij vind het niet fijn dat tarzan er is omdat het een mens is. Hij laat ons er ook niet langs om het bos verder in te gaan. Mischien moeten we hem een banaan geven. Zoek een banaan en geef hem aan dodo.');
+	document.getElementById('dodo').style.display = "inline";
+	document.getElementById('banaantje').style.display = "inline";
 }
 function Vechten() {
 	clearInterval(lbgt_interval);
@@ -38,6 +63,9 @@ function Vechten() {
 function Back(){
 	location.reload();
 }
+function Terug(){
+	location.reload();
+}
 var lbgt_interval = '';
 function showtekst (tekst){
 	document.getElementById('begintekst').innerHTML = "";
@@ -54,3 +82,23 @@ function showtekst (tekst){
 		}
 	},40);
 }
+function dodo(){
+	clearInterval(lbgt_interval);
+	document.getElementById('dodo').style.display = "none";
+	document.getElementById('begintekst').innerHTML = "";
+	document.body.style.backgroundImage = "url('foto 9.jpg')";
+	document.getElementById('banaantje').style.display = "none";
+}
+function banaantje() {
+	clearInterval(lbgt_interval)
+	document.getElementById('banaantje').style.display = "none";
+	document.getElementById('begintekst').innerHTML = "";
+	document.body.style.backgroundImage = "url('foto 8.jpg')";
+	document.body.style.backgroundSize = "1820px 980px";
+	document.getElementById('dodo').style.display = "none";
+	document.getElementById('banana').style.display = "inline";
+
+}
+
+var BanaanHebben = false;
+

@@ -79,6 +79,101 @@ h1 {
 	font-size: 20px;
 	margin-top: -250px;
 	margin-left: 0px;
+	display: none;	
+}
+#liggen {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: orange;
+	border: 5px solid black;
+	font-size: 20px;
+	margin-top: 300px;
+	margin-left: 600px;
 	display: none;
-	
+}
+#liggen:hover {
+	background-color:  #ffa64d;
+	border: 5px solid black;
+	transition-duration: 0.3s;
+}
+#meenemen {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: orange;
+	border: 5px solid black;
+	font-size: 20px;
+	margin-top: 300px;
+	margin-left: 300px;
+	display: none;
+}
+#meenemen:hover {
+	background-color:  #ffa64d;
+	border: 5px solid black;
+	transition-duration: 0.3s;
+}
+#terug {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: red;
+	border: 5px solid black;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	display: none;
+}
+#terug:hover {
+	background-color: pink;
+	border: 5px solid black;
+	transition-duration: 0.3s;
+}
+#dodo {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: black;
+	border: 5px solid white;
+	font-size: 20px;
+	margin-top: 300px;
+	margin-left: 300px;
+	display: none;
+	color: white;
+}
+#dodo:hover {
+	background-color:  white;
+	border: 5px solid black;
+	color: black;
+	transition-duration: 0.3s;
+}
+#banaantje {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: black;
+	border: 5px solid white;
+	font-size: 20px;
+	margin-top: 300px;
+	margin-left: 700px;
+	display: none;
+	color: white;
+}
+#banaantje:hover {
+	background-color:  white;
+	border: 5px solid black;
+	color: black;
+	transition-duration: 0.3s;
+}
+#banana {
+	display: none;
+	height: 100px;
+	width: 50px;
+	margin-left: 1400px;
+	margin-top: 650px;
 }
