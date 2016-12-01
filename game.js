@@ -88,6 +88,10 @@ function dodo(){
 	document.getElementById('begintekst').innerHTML = "";
 	document.body.style.backgroundImage = "url('foto 9.jpg')";
 	document.getElementById('banaantje').style.display = "none";
+	document.getElementById('langsdodo').style.display = "inline";
+}
+onclick = function(){
+	banaanHebben = true;
 }
 function banaantje() {
 	clearInterval(lbgt_interval)
@@ -102,3 +106,15 @@ function banaantje() {
 
 var BanaanHebben = false;
 
+function langsdodo() {
+	clearInterval(lbgt_interval);
+		onclick = function(){
+		if (banaanHebben) {
+			langsdodo();
+		} 
+		else {
+			alert('zoek de banaan voor dodo');
+		}
+	}
+	document.body.style.backgroundImage = "url('foto 4.jpg')"
+}

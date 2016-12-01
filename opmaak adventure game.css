@@ -177,3 +177,20 @@ h1 {
 	margin-left: 1400px;
 	margin-top: 650px;
 }
+#langsdodo{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: orange;
+	border: 5px solid black;
+	font-size: 20px;
+	margin-top: 300px;
+	margin-left: 300px;
+	display: none;
+}
+#langsdodo:hover {
+	background-color:  #ffa64d;
+	border: 5px solid black;
+	transition-duration: 0.3s;
+}
