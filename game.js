@@ -14,6 +14,7 @@ function Begin() {
 	document.getElementById('vechten').style.display = "inline";
 }
 function Verstoppen() {
+	
 	clearInterval(lbgt_interval);
 	document.getElementById('weg').style.display = "none";
 	document.getElementById('begintekst').innerHTML = "";
